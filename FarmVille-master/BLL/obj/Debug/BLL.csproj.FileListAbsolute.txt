@@ -1,0 +1,38 @@
+C:\Users\User\Desktop\FarmVille\BLL\bin\Debug\BLL.dll
+C:\Users\User\Desktop\FarmVille\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\FarmVille\BLL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\FarmVille\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\FarmVille\BLL\obj\Debug\BLL.dll
+C:\Users\User\Desktop\FarmVille\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Desktop\FarmVille\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FarmVille\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FarmVille\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\FarmVille\BLL\bin\Debug\BLL.dll
+E:\FarmVille\BLL\bin\Debug\BLL.pdb
+E:\FarmVille\BLL\bin\Debug\DAL.dll
+E:\FarmVille\BLL\bin\Debug\DAL.pdb
+E:\FarmVille\BLL\obj\Debug\BLL.dll
+E:\FarmVille\BLL\obj\Debug\BLL.pdb
+E:\FarmVille\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Finale\FarmVille\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Finale\FarmVille\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Finale\FarmVille\BLL\obj\Debug\BLL.dll
+C:\Users\User\Desktop\Finale\FarmVille\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Desktop\FarmVille-master\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FarmVille-master\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FarmVille-master\BLL\bin\Debug\BLL.dll
+C:\Users\User\Desktop\FarmVille-master\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\FarmVille-master\BLL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\FarmVille-master\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\FarmVille-master\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\User\Desktop\FarmVille-master\BLL\obj\Debug\BLL.dll
+C:\Users\User\Desktop\FarmVille-master\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\bin\Debug\BLL.dll
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\obj\Debug\BLL.dll
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\BLL\obj\Debug\BLL.pdb

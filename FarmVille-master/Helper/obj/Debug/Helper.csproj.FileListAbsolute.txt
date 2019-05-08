@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\FarmVille-master\Helper\bin\Debug\Helper.dll
+C:\Users\User\Desktop\FarmVille-master\Helper\bin\Debug\Helper.pdb
+C:\Users\User\Desktop\FarmVille-master\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FarmVille-master\Helper\obj\Debug\Helper.dll
+C:\Users\User\Desktop\FarmVille-master\Helper\obj\Debug\Helper.pdb
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\bin\Debug\Helper.dll
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\bin\Debug\Helper.pdb
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\obj\Debug\Helper.dll
+C:\Users\User\Desktop\Belgium_Campus\2nd Year\PRG221\Herman_Jan_Wikus_Project\FarmVille-master\Helper\obj\Debug\Helper.pdb

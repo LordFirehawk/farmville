@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0BEA7749-E484-4FBA-BAF5-AF1DD0E9F697}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FarmVille</RootNamespace>
+    <AssemblyName>FarmVille</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Client.cs" />
+    <Compile Include="CharCreaterFirst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharCreaterFirst.Designer.cs">
+      <DependentUpon>CharCreaterFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Create Farm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create Farm.designer.cs">
+      <DependentUpon>Create Farm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayFarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayFarm.Designer.cs">
+      <DependentUpon>DisplayFarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoggedIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoggedIn.Designer.cs">
+      <DependentUpon>LoggedIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CharCreaterFirst.resx">
+      <DependentUpon>CharCreaterFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Farm.resx">
+      <DependentUpon>Create Farm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayFarm.resx">
+      <DependentUpon>DisplayFarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoggedIn.resx">
+      <DependentUpon>LoggedIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{6895eeb4-dc93-4b57-8034-61947ae95c9d}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{3a3edc10-6f9a-4339-b804-9a99d836fe73}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Backdrops\Create.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Backdrops\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CBF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CGF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F1CRF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CBF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CGF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farmers\F2CRF.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
